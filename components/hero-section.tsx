@@ -143,7 +143,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("nlp")}
               >
@@ -164,7 +164,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("services")}
               >
@@ -185,7 +185,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("publications")}
               >
@@ -206,7 +206,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("research")}
               >
@@ -227,7 +227,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("about")}
               >
@@ -248,7 +248,7 @@ export function HeroSection() {
             >
               <Button
                 size="lg"
-                className="relative text-base w-full h-auto py-5 px-6 bg-gradient-to-br from-background/80 to-background/40 backdrop-blur-sm hover:from-blue-50/20 hover:to-blue-100/10 border border-primary/20 hover:border-blue-200/30 transition-all duration-300 group shadow-lg hover:shadow-xl hover:shadow-blue-200/20"
+                className="w-full h-auto py-5 px-6 bg-background/80 hover:!bg-background/85 border border-primary/20 hover:!border-primary/22 transition-colors duration-300"
                 variant="outline"
                 onClick={() => scrollToSection("contact")}
               >

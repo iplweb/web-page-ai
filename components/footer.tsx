@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, Github } from "lucide-react"
+import { Mail, Github, Twitter, Globe } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function Footer() {
@@ -23,6 +23,15 @@ export function Footer() {
               <span className="hidden sm:inline">michal.dtz@gmail.com</span>
             </a>
             <a
+              href="https://twitter.com/mpasternak79"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+            >
+              <Twitter className="w-4 h-4" />
+              <span className="hidden sm:inline">Twitter</span>
+            </a>
+            <a
               href="https://github.com/fidmaa/"
               target="_blank"
               rel="noopener noreferrer"
@@ -30,6 +39,15 @@ export function Footer() {
             >
               <Github className="w-4 h-4" />
               <span className="hidden sm:inline">GitHub</span>
+            </a>
+            <a
+              href="https://iplweb.pl/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+            >
+              <Globe className="w-4 h-4" />
+              <span className="hidden sm:inline">iplweb.pl</span>
             </a>
           </div>
         </div>
