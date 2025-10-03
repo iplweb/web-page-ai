@@ -25,6 +25,10 @@ const publications = [
 export function PublicationsSection() {
   const { t } = useLanguage()
 
+  const handleCardClick = (url: string) => {
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <section id="publications" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
@@ -46,7 +50,11 @@ export function PublicationsSection() {
 
         <div className="flex flex-col gap-6 max-w-4xl mx-auto">
           {publications.map((pub, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow">
+            <Card
+              key={index}
+              className="hover:shadow-lg transition-shadow cursor-pointer"
+              onClick={() => handleCardClick(pub.doi)}
+            >
               <CardHeader>
                 <p className="text-base leading-relaxed mb-4">{pub.citation}</p>
                 <a
@@ -54,6 +62,7 @@ export function PublicationsSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-primary hover:underline font-medium"
+                  onClick={(e) => e.stopPropagation()}
                 >
                   {pub.doi}
                   <ExternalLink className="w-4 h-4 ml-2" />

@@ -5,6 +5,7 @@ import { Suspense } from "react"
 import Script from "next/script"
 import "./globals.css"
 import { LanguageProvider } from "@/contexts/language-context"
+import { LoadingSpinner } from "@/components/loading-spinner"
 
 export const metadata: Metadata = {
   title: "Michał Pasternak | AI in Medicine - Anesthesiology & Intensive Care",
@@ -123,7 +124,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans">
         <LanguageProvider>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<LoadingSpinner />}>
             {children}
             <Analytics />
           </Suspense>

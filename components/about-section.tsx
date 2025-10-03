@@ -39,7 +39,7 @@ export function AboutSection() {
   ]
 
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="about" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2
@@ -50,8 +50,8 @@ export function AboutSection() {
           </h2>
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
             {t(
-              "A unique combination of medical expertise, technical proficiency, and AI innovation.",
-              "Unikalne połączenie wiedzy medycznej, biegłości technicznej i innowacji AI.",
+              "I completed my medical degree while maintaining a lifelong passion for computer science. As a specialist in anesthesiology and intensive care with extensive IT expertise, I have dedicated recent years to research aimed at enhancing safety and organizational efficiency in anesthesiology through innovative technologies.",
+              "Ukończyłem studia medyczne na wydziale lekarskim, uzyskałem specjalizację z anestezjologii i intensywnej terapii. Równocześnie zawsze pasjonowała mnie informatyka, którą rozwijałem równolegle do kariery medycznej. Od kilku lat w ramach prowadzonej pracy naukowej staram się usprawnić bezpieczeństwo i organizację w anestezjologii dzięki nowym technologiom.",
             )}
           </p>
         </div>
@@ -90,7 +90,7 @@ export function AboutSection() {
         <div className="mt-12 max-w-3xl mx-auto text-center">
           <p className="text-base text-foreground leading-relaxed">
             {t(
-              "Combining clinical practice with software development to build AI tools that support patient safety in anesthesiology and intensive care.",
+              "I combine clinical practice with software development to create AI-powered tools that enhance patient safety in anesthesiology and intensive care settings.",
               "Łączę praktykę kliniczną z programowaniem, tworząc narzędzia AI wspierające bezpieczeństwo pacjentów w anestezjologii i intensywnej terapii.",
             )}
           </p>
