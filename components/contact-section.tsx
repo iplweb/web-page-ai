@@ -90,8 +90,8 @@ export function ContactSection() {
     {
       icon: Mail,
       title: t("Email", "E-mail"),
-      content: "michal.dtz@gmail.com",
-      href: "mailto:michal.dtz@gmail.com",
+      content: "m+ai@iplweb.pl",
+      href: "mailto:m+ai@iplweb.pl",
       color: "text-green-500",
       external: false
     },

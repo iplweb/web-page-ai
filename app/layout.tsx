@@ -96,7 +96,7 @@ export default function RootLayout({
               description:
                 "Specialist in Anesthesiology and Intensive Care, focusing on AI and NLP applications in medicine",
               url: "https://ai.iplweb.pl",
-              email: "michal.pasternak@iplweb.pl",
+              email: "m+ai@iplweb.pl",
               sameAs: ["https://github.com/mpasternak"],
               knowsAbout: [
                 "Artificial Intelligence",

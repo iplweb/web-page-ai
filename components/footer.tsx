@@ -16,11 +16,11 @@ export function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="mailto:michal.dtz@gmail.com"
+              href="mailto:m+ai@iplweb.pl"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
             >
               <Mail className="w-4 h-4" />
-              <span className="hidden sm:inline">michal.dtz@gmail.com</span>
+              <span className="hidden sm:inline">m+ai@iplweb.pl</span>
             </a>
             <a
               href="https://twitter.com/mpasternak79"
