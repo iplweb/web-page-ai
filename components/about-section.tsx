@@ -59,7 +59,7 @@ export function AboutSection() {
         <div className="flex justify-center mb-12">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-lg">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/michal-pasternak-photo-2-s5E03VsnWMW3NMtXkrmO0iA5ek3Vqy.jpg"
+              src="/michal-pasternak-photo.png"
               alt="Michał Pasternak"
               fill
               className="object-cover"
